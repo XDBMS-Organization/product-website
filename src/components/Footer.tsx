@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="border-t bg-muted/30">
@@ -14,10 +16,15 @@ const Footer = () => {
 
 
           <div className="flex flex-col md:flex-row gap-4 text-sm text-muted-foreground">
-            <a href="/legal" className="hover:text-foreground transition-colors">
+            <Link
+              to="/legal"
+              className="hover:text-foreground transition-colors"
+              onClick={() => window.scrollTo({ top: 0, behavior: "instant" })}
+            >
               Imprint &amp; Privacy Policy
-            </a>
+            </Link>
           </div>
+
         </div>
 
         <div className="mt-8 pt-6 border-t text-center text-sm text-muted-foreground">
