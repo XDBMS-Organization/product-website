@@ -49,3 +49,7 @@ This project is built with:
 ## How can I deploy this project?
 
 Commit to master branch and a CI/CD GitHub Action is executed to deploy it on gh-pages
+
+## How can I change the domain name
+1) Change "homepage" under package.json
+2) Change "base" under vite.config.ts

@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   // 👇 this is the important part
-  base: "/xdb-website/",
+  base: "/",
 
   server: {
     host: "::",
