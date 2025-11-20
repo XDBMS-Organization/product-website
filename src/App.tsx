@@ -7,7 +7,6 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ComingSoon from "./pages/ComingSoon";
 import Legal from "./pages/Legal";
-import { AnalyticsListener } from "./AnalyticsListener";
 
 const queryClient = new QueryClient();
 
@@ -23,7 +22,6 @@ const App = () => (
           v7_relativeSplatPath: true,
         }}
       >
-      <AnalyticsListener />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="coming-soon" element={<ComingSoon />} />

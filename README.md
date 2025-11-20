@@ -59,6 +59,4 @@ Commit to master branch and a CI/CD GitHub Action is executed to deploy it on gh
 
 ## How can I modify Google Analytics?
 
-1) Modify header in index.html
-2) Modify src/AnalyticsListener.tsx
-3) Check imports in src/App.tsx
+1) Modify header in index.html and add gtag
