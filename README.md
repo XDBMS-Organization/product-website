@@ -2,9 +2,11 @@
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be
+reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The only requirement is having Node.js & npm
+installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
 
@@ -51,5 +53,12 @@ This project is built with:
 Commit to master branch and a CI/CD GitHub Action is executed to deploy it on gh-pages
 
 ## How can I change the domain name
+
 1) Change "base" under vite.config.ts
 2) Change "cname" under .github/workflows/deploy.yml
+
+## How can I modify Google Analytics?
+
+1) Modify header in index.html
+2) Modify src/AnalyticsListener.tsx
+3) Check imports in src/App.tsx

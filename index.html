@@ -1,19 +1,39 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>XDB - Intelligent Data Fabric for Seamless Database Integration</title>
-    <meta name="description" content="XDB is a data fabric that connects multiple databases without data movement. Query all systems through one unified SQL interface, reduce data transfer by 1000x, and cut costs by 90%." />
-    <meta name="author" content="XDB" />
+    <meta content="XDB is a data fabric that connects multiple databases without data movement. Query all systems through one unified SQL interface, reduce data transfer by 1000x, and cut costs by 90%."
+          name="description"/>
+    <meta content="XDB" name="author"/>
 
-    <meta property="og:title" content="XDB - Intelligent Data Fabric" />
-    <meta property="og:description" content="Query multiple databases seamlessly without moving data. 1000x less data transfer, 6x faster performance." />
-    <meta property="og:type" content="website" />
-  </head>
+    <meta content="XDB - Intelligent Data Fabric" property="og:title"/>
+    <meta content="Query multiple databases seamlessly without moving data. 1000x less data transfer, 6x faster performance."
+          property="og:description"/>
+    <meta content="website" property="og:type"/>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Google Analytics -->
+    <script>
+        // Load GA only in production (your domain)
+        if (location.hostname === "xdbms.io" || location.hostname === "www.xdbms.io") {
+          var gaScript = document.createElement("script");
+          gaScript.async = true;
+          gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-48VHYZ7YFR";
+          document.head.appendChild(gaScript);
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
+
+          gtag("js", new Date());
+          gtag("config", "G-48VHYZ7YFR");
+        }
+    </script>
+</head>
+
+<body>
+<div id="root"></div>
+<script src="/src/main.tsx" type="module"></script>
+</body>
 </html>
