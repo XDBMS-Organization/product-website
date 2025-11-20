@@ -52,3 +52,4 @@ Commit to master branch and a CI/CD GitHub Action is executed to deploy it on gh
 
 ## How can I change the domain name
 1) Change "base" under vite.config.ts
+2) Change "cname" under .github/workflows/deploy.yml
