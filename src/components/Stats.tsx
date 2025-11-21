@@ -9,12 +9,12 @@ const stats = [
   {
     value: "6x",
     label: "Faster Performance",
-    description: "Optimized query execution at the source"
+    description: "Optimized query execution from the source"
   },
   {
     value: "100%",
     label: "Data Sovereignty",
-    description: "Full compliance with data never leaving its origin"
+    description: "Compliance made simple, secure, and scalable"
   },
   {
     value: "Zero",

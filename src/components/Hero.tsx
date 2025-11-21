@@ -20,16 +20,15 @@ const Hero = () => {
           {/* LEFT: hero text */}
           <div className="flex-[1.6] space-y-6 text-center lg:text-left">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
-              The Intelligent{" "}
+              XDB - <br/> The Intelligent{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
                 Data Fabric
               </span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto lg:mx-0">
-              Query all your databases seamlessly without moving data. XDB
-              optimizes performance, cuts costs, and eliminates complex
-              ETL pipelines.
+              Simplify your data pipelines and infrastructure. XDB boosts performance,
+              cuts costs, and eliminates compliance overhead.
             </p>
 
             <p className="text-sm md:text-base text-muted-foreground max-w-xl mx-auto lg:mx-0">
