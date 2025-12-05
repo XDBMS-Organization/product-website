@@ -42,11 +42,11 @@ const HowItWorks = () => {
             return (
               <Card 
                 key={index} 
-                className="p-8 border-2 hover:border-primary/50 transition-all duration-300 hover:shadow-lg group"
+                className="p-8 border-2"
               >
                 <div className="mb-4">
-                  <div className="inline-flex p-3 rounded-lg bg-primary/10 group-hover:bg-gradient-primary transition-all duration-300">
-                    <Icon className="h-8 w-8 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
+                  <div className="inline-flex p-3 rounded-lg bg-primary/10">
+                    <Icon className="h-8 w-8 text-primary" />
                   </div>
                 </div>
                 <h3 className="text-2xl font-semibold mb-3">{feature.title}</h3>

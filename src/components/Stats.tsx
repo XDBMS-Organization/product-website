@@ -2,24 +2,24 @@ import { Card } from "@/components/ui/card";
 
 const stats = [
   {
-    value: "1000x",
-    label: "Less Data Transfer",
-    description: "Reduce unnecessary data movement across systems"
+    value: "Local",
+    label: "Governance",
+    description: "Your organization retains full jurisdiction and custody of all information."
   },
   {
-    value: "6x",
-    label: "Faster Performance",
-    description: "Optimized query execution from the source"
+    value: "Efficient",
+    label: "Execution",
+    description: "Compute runs close to the data, minimizing transfers and resource usage."
   },
   {
-    value: "100%",
-    label: "Data Sovereignty",
-    description: "Compliance made simple, secure, and scalable"
+    value: "Auditable",
+    label: "Operations",
+    description: "Every operation is explainable and fully verifiable for compliance workflows."
   },
   {
-    value: "Zero",
-    label: "Infrastructure Changes",
-    description: "Seamless integration into existing stack"
+    value: "Seamless",
+    label: "Integration",
+    description: "Deploy without changing existing databases, networks, or workflows."
   }
 ];
 
@@ -29,11 +29,11 @@ const Stats = () => {
       <div className="container px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
-            <Card 
-              key={index} 
-              className="p-8 text-center border-2 hover:border-primary/50 transition-all duration-300 hover:shadow-lg group"
+            <Card
+              key={index}
+              className="p-8 text-center border-2"
             >
-              <div className="text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-300">
+              <div className="text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-3">
                 {stat.value}
               </div>
               <div className="text-lg font-semibold text-foreground mb-2">
@@ -47,8 +47,9 @@ const Stats = () => {
         </div>
 
         <p className="mt-8 text-xs text-muted-foreground text-center max-w-3xl mx-auto">
-          Performance figures above are derived from the peer-reviewed research papers of our XDB prototype.
+          The properties above reflect XDB’s architectural design and enforcement guarantees under typical deployment conditions.
         </p>
+
       </div>
     </section>
   );

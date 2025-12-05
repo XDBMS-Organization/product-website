@@ -7,7 +7,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
         <div className="flex items-center space-x-3">
           <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            XDB
+            <Link
+              to="/"
+              onClick={() => window.scrollTo({ top: 0, behavior: "instant" })}
+            >
+              XDB
+            </Link>
           </h3>
           <p className="text-muted-foreground max-w-md">
             The intelligent data fabric that unifies your data.

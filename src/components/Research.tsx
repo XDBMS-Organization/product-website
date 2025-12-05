@@ -35,8 +35,7 @@ const Research = () => {
             The science behind <span className="bg-gradient-primary bg-clip-text text-transparent">XDB</span>
           </h2>
           <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-            XDB builds directly on peer-reviewed research from TU Berlin’s Database Systems Group.
-            Our prototype has been evaluated on real workloads in the following papers.
+            XDB builds on peer-reviewed research from TU Berlin’s Database Systems Group.
           </p>
         </div>
 

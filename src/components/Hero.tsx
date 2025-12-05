@@ -27,7 +27,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto lg:mx-0">
-              Simplify your data pipelines and infrastructure. XDB boosts performance,
+              Secure your data pipelines and infrastructure. XDB boosts performance,
               cuts costs, and eliminates compliance overhead.
             </p>
 
