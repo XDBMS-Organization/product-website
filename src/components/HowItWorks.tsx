@@ -9,8 +9,8 @@ const features = [
   },
   {
     icon: Zap,
-    title: "Intelligent Optimization",
-    description: "XDB decides where each part of the query runs, avoiding wasteful transfers and unnecessary costs."
+    title: "Efficient Optimization",
+    description: "XDB decides where each part of the query runs within your local infrastructure, avoiding wasteful resources and unnecessary costs."
   },
   {
     icon: Shield,
@@ -30,10 +30,11 @@ const HowItWorks = () => {
       <div className="container px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            How <span className="bg-gradient-primary bg-clip-text text-transparent">XDB</span> Works
+            What Makes <span className="bg-gradient-primary bg-clip-text text-transparent">XDB</span> Different
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A smart layer that transforms fragmented data into one coherent, and intelligent infrastructure
+              A novel type of optimization layer that unifies data access and execution across your infrastructure
+              without breaking security or compliance boundaries
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">

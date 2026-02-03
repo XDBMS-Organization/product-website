@@ -1,50 +1,62 @@
 import React from "react";
 import heroBg from "@/assets/hero-bg.jpg";
 import CodeExample from "@/components/CodeExample";
+import xdbOverview from "@/assets/xdb_overview.svg";
 
 const Hero = () => {
-  return (
-    <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden bg-gradient-hero">
-      {/* Background */}
-      <div
-        className="absolute inset-0 opacity-10"
-        style={{
-          backgroundImage: `url(${heroBg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
+    return (
+        <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden bg-gradient-hero">
+            {/* Background */}
+            <div
+                className="absolute inset-0 opacity-10"
+                style={{
+                    backgroundImage: `url(${heroBg})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+            />
 
-      <div className="container relative z-10 px-4 py-20 md:py-32">
-        <div className="mx-auto max-w-7xl flex flex-col lg:flex-row items-center gap-12">
-          {/* LEFT: hero text */}
-          <div className="flex-[1.6] space-y-6 text-center lg:text-left">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
-              XDB - <br/> The Intelligent{" "}
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Data Fabric
-              </span>
-            </h1>
+            <div className="container relative z-10 px-4 py-20 md:py-32">
+                <div className="mx-auto max-w-7xl flex flex-col items-center gap-12">
+                    {/* Headline */}
+                    <h1 className="text-center text-5xl md:text-7xl font-bold tracking-tight leading-tight max-w-5xl">
+                        <span className="bg-gradient-primary bg-clip-text text-transparent">
+                            XDB{" "}
+                        </span>
+                        – The Trustworthy Optimization Layer
+                    </h1>
 
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto lg:mx-0">
-              Secure your data pipelines and infrastructure. XDB boosts performance,
-              cuts costs, and eliminates compliance overhead.
-            </p>
+                    <div className="space-y-4 text-center max-w-3xl">
+                        <p className="text-lg md:text-xl text-muted-foreground">
+                            Secure your data pipelines and infrastructure. XDB boosts performance, cuts costs,
+                            and eliminates compliance overhead without exposing your data
+                        </p>
+                    </div>
 
-            <p className="text-sm md:text-base text-muted-foreground max-w-xl mx-auto lg:mx-0">
-              Connect warehouses, lakes, and operational stores, then query them
-              as one. From SQL or directly from your Python notebooks.
-            </p>
-          </div>
+                    {/* Product visual */}
+                    <img
+                        src={xdbOverview}
+                        alt="XDB overview"
+                        className="w-full max-w-6xl"
+                    />
 
-          {/* RIGHT: code examples */}
-          <div className="flex-[1] w-full">
+                    {/* Supporting text
+                    <div className="space-y-4 text-center max-w-3xl">
+                        <p className="text-sm md:text-base text-muted-foreground">
+                            Connect warehouses, lakes, and operational stores, then query them
+                            as one. From SQL or directly from your Python notebooks.
+                        </p>
+                    </div>*/}
+
+                    {/* Optional: code example later
+          <div className="w-full max-w-4xl">
             <CodeExample />
           </div>
-        </div>
-      </div>
-    </section>
-  );
+          */}
+                </div>
+            </div>
+        </section>
+    );
 };
 
 export default Hero;

@@ -30,12 +30,13 @@ const Research = () => {
   return (
     <section id="research" className="py-24 bg-background">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            The science behind <span className="bg-gradient-primary bg-clip-text text-transparent">XDB</span>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            The Science Behind <span className="bg-gradient-primary bg-clip-text text-transparent">XDB</span>
           </h2>
-          <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-            XDB builds on peer-reviewed research from TU Berlin’s Database Systems Group.
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              XDB is built on peer-reviewed research that has already shaped modern data systems
+              and is now engineered for production environments
           </p>
         </div>
 
@@ -50,9 +51,6 @@ const Research = () => {
                 <h3 className="text-lg font-semibold mb-2">
                   {paper.title}
                 </h3>
-                <p className="text-xs text-muted-foreground mb-2">
-                  {paper.authors}
-                </p>
                 <p className="text-sm text-muted-foreground">
                   {paper.highlight}
                 </p>

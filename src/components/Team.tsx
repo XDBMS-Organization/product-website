@@ -32,7 +32,7 @@ const Team = () => {
               A Team Built on Research-Driven Excellence
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Turning academic breakthroughs into high-performance data management
+                Turning peer-reviewed research into production-grade data infrastructure
             </p>
           </div>
 
