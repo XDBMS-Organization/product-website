@@ -23,13 +23,13 @@ const Hero = () => {
                         <span className="bg-gradient-primary bg-clip-text text-transparent">
                             XDB{" "}
                         </span>
-                        – The Trustworthy Optimization Layer
+                        – The Compliant Optimization Layer
                     </h1>
 
                     <div className="space-y-4 text-center max-w-3xl">
                         <p className="text-lg md:text-xl text-muted-foreground">
                             Secure your data pipelines and infrastructure. XDB boosts performance, cuts costs,
-                            and eliminates compliance overhead without exposing your data
+                            and automatically enforces compliance policies without exposing your data
                         </p>
                     </div>
 

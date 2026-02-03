@@ -21,9 +21,9 @@ const stats = [
   },
   {
     value: "Foundation",
-    label: "for AI",
+    label: "AI & Agents",
     description:
-      "A secure, governed data foundation so AI teams can use more data reliably and at scale."
+      "A secure, governed data foundation so AI teams and agents can use more data reliably and at scale."
   }
 ];
 
@@ -51,7 +51,7 @@ const Stats = () => {
         </div>
 
         <p className="mt-8 text-xs text-muted-foreground text-center max-w-3xl mx-auto">
-          These guarantees are achieved by running XDB on representative workloads and are verified by peer-reviewed research.
+          *These guarantees are achieved by running XDB on representative workloads and are verified by peer-reviewed research.
         </p>
       </div>
     </section>
