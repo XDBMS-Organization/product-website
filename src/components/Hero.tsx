@@ -20,17 +20,18 @@ const Hero = () => {
                 <div className="mx-auto max-w-7xl flex flex-col items-center gap-12">
                     {/* Headline */}
                     <h1 className="text-center text-5xl md:text-7xl font-bold tracking-tight leading-tight max-w-5xl">
-                        Fuel AI Agents with your Sensitive Enterprise Data{" "}<br/>
+
                         <span className="bg-gradient-primary bg-clip-text text-transparent">
-                            Fully Compliant and Controlled
+                            Unlock AI & Analytics {" "}<br/>
                         </span>
+                        On Your Sensitive Data in Regulated Environments
 
                     </h1>
 
                     <div className="space-y-4 text-center max-w-3xl">
                         <p className="text-lg md:text-xl text-muted-foreground">
-                            Secure your data pipelines and infrastructure. XDB boosts performance, cuts costs,
-                            and automatically enforces compliance policies without exposing your data
+                            Secure your data pipelines and infrastructure. XDB enforces military-grade compliance,
+                            boosts performance and cuts costs without exposing your data
                         </p>
                     </div>
 
