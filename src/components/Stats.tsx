@@ -14,7 +14,7 @@ const stats = [
       "Up to 80% lower query runtimes, data transfer, and cloud costs compared to engines like Trino."
   },
   {
-    value: "Plug & Play",
+    value: "Seamless",
     label: "Integration",
     description:
       "Deploy alongside existing databases and workflows without migrations, rewiring, or operational disruption."
