@@ -20,10 +20,11 @@ const Hero = () => {
                 <div className="mx-auto max-w-7xl flex flex-col items-center gap-12">
                     {/* Headline */}
                     <h1 className="text-center text-5xl md:text-7xl font-bold tracking-tight leading-tight max-w-5xl">
+                        Fuel AI Agents with your Sensitive Enterprise Data{" "}<br/>
                         <span className="bg-gradient-primary bg-clip-text text-transparent">
-                            XDB{" "}
+                            Fully Compliant and Controlled
                         </span>
-                        – The Compliant Optimization Layer
+
                     </h1>
 
                     <div className="space-y-4 text-center max-w-3xl">
